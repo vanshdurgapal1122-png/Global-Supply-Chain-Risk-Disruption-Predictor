@@ -1,0 +1,304 @@
+[
+  {
+    "id": "NEWS-001",
+    "title": "Red Sea Security Crisis Forces Major Container Lines to Reroute Around Cape of Good Hope",
+    "summary": "Escalating drone and missile attacks on commercial shipping in Bab el-Mandeb lead Maersk, MSC, and Hapag-Lloyd to suspend Suez Canal transits, adding 10 to 14 days to Asia-Europe voyages.",
+    "source": "Maritime Global Dispatch",
+    "published_at": "2024-01-15T08:30:00",
+    "category": "Geopolitical_Conflict",
+    "region": "Red Sea / Suez Canal",
+    "affected_ports": [
+      "NLRTM",
+      "BEANR",
+      "DEHAM",
+      "CNSHA",
+      "SGSIN"
+    ],
+    "text": "Red Sea Security Crisis Forces Major Container Lines to Reroute Around Cape of Good Hope. Escalating drone and missile attacks on commercial shipping in Bab el-Mandeb lead Maersk, MSC, and Hapag-Lloyd to suspend Suez Canal transits, adding 10 to 14 days to Asia-Europe voyages.",
+    "sentiment": "negative",
+    "confidence": 0.964,
+    "scores": {
+      "negative": 0.964,
+      "neutral": 0.027,
+      "positive": 0.008
+    },
+    "disruption_score": 0.977,
+    "entities": [
+      "Suez_Canal"
+    ],
+    "categories": [
+      "Geopolitical_Conflict"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-002",
+    "title": "Severe Drought Forces Panama Canal Authority to Slash Daily Booking Slots to 24 Transits",
+    "summary": "El Ni\u00f1o conditions and low Gatun Lake water levels trigger stringent draft limits and lengthy wait times of up to 18 days for unbooked container ships and bulk carriers.",
+    "source": "Panama Maritime Authority Bulletin",
+    "published_at": "2024-02-02T14:15:00",
+    "category": "Severe_Weather",
+    "region": "Panama Canal",
+    "affected_ports": [
+      "USNYC",
+      "USHOU",
+      "CNNGB",
+      "CNSZX"
+    ],
+    "text": "Severe Drought Forces Panama Canal Authority to Slash Daily Booking Slots to 24 Transits. El Ni\u00f1o conditions and low Gatun Lake water levels trigger stringent draft limits and lengthy wait times of up to 18 days for unbooked container ships and bulk carriers.",
+    "sentiment": "negative",
+    "confidence": 0.966,
+    "scores": {
+      "negative": 0.966,
+      "neutral": 0.025,
+      "positive": 0.009
+    },
+    "disruption_score": 0.814,
+    "entities": [
+      "Panama_Canal"
+    ],
+    "categories": [
+      "Severe_Weather"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-003",
+    "title": "ILA Dockworkers Launch Strike Across US East and Gulf Coast Ports, Halting 50% of Container Cargo",
+    "summary": "Tens of thousands of International Longshoremen's Association workers walk off the job from Maine to Texas over automation disputes and wage demands, creating massive vessel queues off New York and Houston.",
+    "source": "Logistics Freight Weekly",
+    "published_at": "2024-10-01T06:00:00",
+    "category": "Labor_Strike",
+    "region": "US East Coast / Gulf",
+    "affected_ports": [
+      "USNYC",
+      "USHOU"
+    ],
+    "text": "ILA Dockworkers Launch Strike Across US East and Gulf Coast Ports, Halting 50% of Container Cargo. Tens of thousands of International Longshoremen's Association workers walk off the job from Maine to Texas over automation disputes and wage demands, creating massive vessel queues off New York and Houston.",
+    "sentiment": "negative",
+    "confidence": 0.958,
+    "scores": {
+      "negative": 0.958,
+      "neutral": 0.034,
+      "positive": 0.008
+    },
+    "disruption_score": 0.815,
+    "entities": [
+      "US_Ports"
+    ],
+    "categories": [
+      "Labor_Strike"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-004",
+    "title": "Super Typhoon Shuts Down Ningbo-Zhoushan and Shanghai Ports, Halting Terminal Gate Operations",
+    "summary": "Category 4 tropical storm forces eastern Chinese ports to lash down container cranes and evacuate anchorages, delaying over 120 container vessels heading for Europe and North America.",
+    "source": "Asia Shipping News",
+    "published_at": "2024-09-16T11:45:00",
+    "category": "Severe_Weather",
+    "region": "East Asia",
+    "affected_ports": [
+      "CNSHA",
+      "CNNGB",
+      "KRPUS"
+    ],
+    "text": "Super Typhoon Shuts Down Ningbo-Zhoushan and Shanghai Ports, Halting Terminal Gate Operations. Category 4 tropical storm forces eastern Chinese ports to lash down container cranes and evacuate anchorages, delaying over 120 container vessels heading for Europe and North America.",
+    "sentiment": "negative",
+    "confidence": 0.958,
+    "scores": {
+      "negative": 0.958,
+      "neutral": 0.031,
+      "positive": 0.01
+    },
+    "disruption_score": 0.79,
+    "entities": [
+      "Asian_Ports"
+    ],
+    "categories": [
+      "Severe_Weather"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-005",
+    "title": "Bunker Fuel Prices Surge 18% as Middle East Tensions Threaten Strait of Hormuz Tanker Traffic",
+    "summary": "VLSFO (Very Low Sulfur Fuel Oil) spot prices exceed $740/tonne in Singapore and Rotterdam, forcing carriers to implement slow-steaming protocols and emergency bunker surcharges.",
+    "source": "Energy & Shipping Review",
+    "published_at": "2024-04-18T16:20:00",
+    "category": "Macro_Fuel",
+    "region": "Global / Middle East",
+    "affected_ports": [
+      "SGSIN",
+      "NLRTM",
+      "AEJEA"
+    ],
+    "text": "Bunker Fuel Prices Surge 18% as Middle East Tensions Threaten Strait of Hormuz Tanker Traffic. VLSFO (Very Low Sulfur Fuel Oil) spot prices exceed $740/tonne in Singapore and Rotterdam, forcing carriers to implement slow-steaming protocols and emergency bunker surcharges.",
+    "sentiment": "negative",
+    "confidence": 0.95,
+    "scores": {
+      "negative": 0.95,
+      "positive": 0.039,
+      "neutral": 0.011
+    },
+    "disruption_score": 0.705,
+    "entities": [
+      "Strait_of_Hormuz",
+      "European_Ports"
+    ],
+    "categories": [
+      "Macro_Fuel"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-006",
+    "title": "Hamburg Port Dockworkers Stage 48-Hour Warning Strike Amid Stalled Wage Negotiations",
+    "summary": "Ver.di trade union calls container terminal workers out in Hamburg and Bremerhaven, creating severe feeder backlogs and rail congestion across central European trade corridors.",
+    "source": "European Freight Herald",
+    "published_at": "2024-07-09T09:10:00",
+    "category": "Labor_Strike",
+    "region": "North Europe",
+    "affected_ports": [
+      "DEHAM",
+      "BEANR",
+      "NLRTM"
+    ],
+    "text": "Hamburg Port Dockworkers Stage 48-Hour Warning Strike Amid Stalled Wage Negotiations. Ver.di trade union calls container terminal workers out in Hamburg and Bremerhaven, creating severe feeder backlogs and rail congestion across central European trade corridors.",
+    "sentiment": "negative",
+    "confidence": 0.966,
+    "scores": {
+      "negative": 0.966,
+      "neutral": 0.025,
+      "positive": 0.009
+    },
+    "disruption_score": 0.978,
+    "entities": [
+      "European_Ports"
+    ],
+    "categories": [
+      "Labor_Strike",
+      "Infrastructure_Blockage"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-007",
+    "title": "Port of Los Angeles and Long Beach Report Record Monthly Throughput with Minimal Yard Dwell",
+    "summary": "Supply chain automation investments and extended gate hours allow San Pedro Bay ports to clear peak season import volumes smoothly with average container dwell under 3 days.",
+    "source": "Pacific Trade Journal",
+    "published_at": "2024-08-22T13:00:00",
+    "category": "Operational_Recovery",
+    "region": "US West Coast",
+    "affected_ports": [
+      "USLAX",
+      "USLGB"
+    ],
+    "text": "Port of Los Angeles and Long Beach Report Record Monthly Throughput with Minimal Yard Dwell. Supply chain automation investments and extended gate hours allow San Pedro Bay ports to clear peak season import volumes smoothly with average container dwell under 3 days.",
+    "sentiment": "positive",
+    "confidence": 0.932,
+    "scores": {
+      "positive": 0.932,
+      "neutral": 0.039,
+      "negative": 0.029
+    },
+    "disruption_score": 0.033,
+    "entities": [
+      "US_Ports"
+    ],
+    "categories": [
+      "Infrastructure_Blockage"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-008",
+    "title": "Panama Canal Increases Daily Transit Slots Following Early Seasonal Rains and Lake Recovery",
+    "summary": "Canal authorities raise booking reservations to 34 ships per day and lift vessel draft restrictions to 48 feet, easing wait times for containerships on the Transpacific East Coast route.",
+    "source": "Canal Operations Update",
+    "published_at": "2024-06-12T10:30:00",
+    "category": "Operational_Recovery",
+    "region": "Panama Canal",
+    "affected_ports": [
+      "USNYC",
+      "CNNGB",
+      "CNSZX"
+    ],
+    "text": "Panama Canal Increases Daily Transit Slots Following Early Seasonal Rains and Lake Recovery. Canal authorities raise booking reservations to 34 ships per day and lift vessel draft restrictions to 48 feet, easing wait times for containerships on the Transpacific East Coast route.",
+    "sentiment": "positive",
+    "confidence": 0.855,
+    "scores": {
+      "positive": 0.855,
+      "negative": 0.113,
+      "neutral": 0.032
+    },
+    "disruption_score": 0.083,
+    "entities": [
+      "Panama_Canal"
+    ],
+    "categories": [
+      "Operational"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-009",
+    "title": "Tentative Agreement Reached to Suspend US Port Strike, Work Resumes Immediately",
+    "summary": "The ILA and USMX agree to a 62% wage increase over six years and an extension of the master contract until January 15, ending the three-day shutdown and clearing docked vessels.",
+    "source": "Global Trade Monitor",
+    "published_at": "2024-10-04T07:45:00",
+    "category": "Operational_Recovery",
+    "region": "US East Coast",
+    "affected_ports": [
+      "USNYC",
+      "USHOU"
+    ],
+    "text": "Tentative Agreement Reached to Suspend US Port Strike, Work Resumes Immediately. The ILA and USMX agree to a 62% wage increase over six years and an extension of the master contract until January 15, ending the three-day shutdown and clearing docked vessels.",
+    "sentiment": "positive",
+    "confidence": 0.925,
+    "scores": {
+      "positive": 0.925,
+      "neutral": 0.038,
+      "negative": 0.037
+    },
+    "disruption_score": 0.132,
+    "entities": [
+      "US_Ports"
+    ],
+    "categories": [
+      "Labor_Strike"
+    ],
+    "method": "FinBERT_Transformer"
+  },
+  {
+    "id": "NEWS-010",
+    "title": "EU Emissions Trading System (ETS) Rules for Maritime Take Effect, Imposing Carbon Levies on Europe Voyagers",
+    "summary": "Carriers face additional compliance costs for carbon emissions on voyages into and out of EU ports, encouraging route adjustments and transshipment hub shifts.",
+    "source": "European Maritime Regulatory Desk",
+    "published_at": "2024-01-02T15:00:00",
+    "category": "Regulatory",
+    "region": "North Europe / Mediterranean",
+    "affected_ports": [
+      "NLRTM",
+      "BEANR",
+      "ESVLC"
+    ],
+    "text": "EU Emissions Trading System (ETS) Rules for Maritime Take Effect, Imposing Carbon Levies on Europe Voyagers. Carriers face additional compliance costs for carbon emissions on voyages into and out of EU ports, encouraging route adjustments and transshipment hub shifts.",
+    "sentiment": "negative",
+    "confidence": 0.887,
+    "scores": {
+      "negative": 0.887,
+      "neutral": 0.058,
+      "positive": 0.055
+    },
+    "disruption_score": 0.664,
+    "entities": [
+      "Global_Maritime"
+    ],
+    "categories": [
+      "Macro_Fuel"
+    ],
+    "method": "FinBERT_Transformer"
+  }
+]

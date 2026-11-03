@@ -1,0 +1,46 @@
+{
+  "delay_regressor": {
+    "mae_days": 0.603,
+    "rmse_days": 1.044,
+    "r2": 0.9458
+  },
+  "bottleneck_classifier": {
+    "accuracy": 0.649,
+    "confusion_matrix": [
+      [
+        4,
+        16,
+        0,
+        0
+      ],
+      [
+        9,
+        163,
+        120,
+        0
+      ],
+      [
+        0,
+        116,
+        479,
+        6
+      ],
+      [
+        0,
+        6,
+        78,
+        3
+      ]
+    ],
+    "classes": [
+      "Low",
+      "Medium",
+      "High",
+      "Critical"
+    ]
+  },
+  "dsi_regressor": {
+    "mae": 4.63,
+    "r2": 0.896
+  }
+}

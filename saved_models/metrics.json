@@ -1,0 +1,111 @@
+{
+  "delay_regressor": {
+    "mae_days": 0.682,
+    "rmse_days": 1.11,
+    "r2_score": 0.9248,
+    "median_delay_test": 1.27
+  },
+  "bottleneck_classifier": {
+    "accuracy": 0.6855,
+    "weighted_f1": 0.6571,
+    "confusion_matrix": [
+      [
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        136,
+        109,
+        1
+      ],
+      [
+        0,
+        94,
+        595,
+        14
+      ],
+      [
+        0,
+        5,
+        117,
+        23
+      ]
+    ],
+    "classes": [
+      "Low",
+      "Medium",
+      "High",
+      "Critical"
+    ]
+  },
+  "dsi_regressor": {
+    "mae_score": 4.41,
+    "rmse_score": 5.62,
+    "r2_score": 0.8923
+  },
+  "top_delay_features": [
+    {
+      "feature": "news_disruption_sentiment",
+      "importance": 0.6136
+    },
+    {
+      "feature": "distance_nm",
+      "importance": 0.0539
+    },
+    {
+      "feature": "rerouted_via_cape",
+      "importance": 0.0417
+    },
+    {
+      "feature": "has_suez_passage",
+      "importance": 0.0313
+    },
+    {
+      "feature": "choke_sentiment_interaction",
+      "importance": 0.031
+    },
+    {
+      "feature": "dest_port_AEJEA",
+      "importance": 0.0256
+    },
+    {
+      "feature": "has_panama_passage",
+      "importance": 0.0212
+    },
+    {
+      "feature": "weather_risk_index",
+      "importance": 0.016
+    },
+    {
+      "feature": "departure_month_9",
+      "importance": 0.0117
+    },
+    {
+      "feature": "departure_month_7",
+      "importance": 0.011
+    },
+    {
+      "feature": "weather_canal_interaction",
+      "importance": 0.0078
+    },
+    {
+      "feature": "dest_port_NLRTM",
+      "importance": 0.0074
+    },
+    {
+      "feature": "departure_month_1",
+      "importance": 0.0071
+    },
+    {
+      "feature": "vessel_class_New_Panamax",
+      "importance": 0.007
+    },
+    {
+      "feature": "departure_month_10",
+      "importance": 0.0065
+    }
+  ]
+}

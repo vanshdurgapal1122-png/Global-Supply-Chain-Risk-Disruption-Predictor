@@ -1,0 +1,115 @@
+{
+  "training_samples": 2000,
+  "validation_samples": 500,
+  "num_features": 50,
+  "delay_model": {
+    "mae_days": 1.363,
+    "rmse_days": 1.858,
+    "r2_score": 0.844,
+    "top_features": [
+      [
+        "rerouted_cape_hope",
+        0.7411
+      ],
+      [
+        "choke_point_Open Ocean",
+        0.0601
+      ],
+      [
+        "distance_nautical_miles",
+        0.0353
+      ],
+      [
+        "nlp_negative_prob",
+        0.0196
+      ],
+      [
+        "scheduled_transit_days",
+        0.0183
+      ],
+      [
+        "destination_port_wait_days",
+        0.0162
+      ],
+      [
+        "choke_risk_factor",
+        0.0141
+      ],
+      [
+        "composite_stress_index",
+        0.0103
+      ],
+      [
+        "origin_port_CNNGB",
+        0.0052
+      ],
+      [
+        "destination_port_DEHAM",
+        0.0046
+      ]
+    ]
+  },
+  "bottleneck_model": {
+    "accuracy": 0.986,
+    "macro_f1": 0.9826,
+    "top_features": [
+      [
+        "destination_port_wait_days",
+        0.2952
+      ],
+      [
+        "origin_port_KRPUS",
+        0.1039
+      ],
+      [
+        "origin_port_CNNGB",
+        0.0978
+      ],
+      [
+        "destination_port_USLAX",
+        0.0757
+      ],
+      [
+        "destination_port_BEANR",
+        0.0609
+      ],
+      [
+        "origin_port_AEJEA",
+        0.0449
+      ],
+      [
+        "destination_port_NLRTM",
+        0.0424
+      ],
+      [
+        "origin_port_SGSIN",
+        0.0414
+      ],
+      [
+        "destination_port_USNYC",
+        0.0373
+      ],
+      [
+        "choke_risk_factor",
+        0.0347
+      ]
+    ]
+  },
+  "disruption_model": {
+    "accuracy": 0.854,
+    "macro_f1": 0.7498
+  },
+  "classes": {
+    "bottleneck_classes": [
+      "Normal",
+      "Moderate Congestion",
+      "Severe Bottleneck"
+    ],
+    "disruption_classes": [
+      "Low",
+      "Moderate",
+      "High",
+      "Critical"
+    ]
+  }
+}
